@@ -9,9 +9,11 @@ Our app works on the concept of bringing those who require food to the instituti
 To do this, we would require support from Local NGOs, to help the people get added to the platform and to assist them in getting tokens and tickets. These tickets are presented as NFTs which are minted for the user and can be used for verification.
 
 Technologies we have used->
+
 Tailwind CSS, React, NextJS, MongoDB, Polygon, Moralis, MetaMask, HardHat, Web3, IPFS, Ethereum
 
 Challenges we ran into->
+
 The challenges were big but not unsolvable. Due to this idea having very big aspirations and goals, we achieved major milestones in our project and the entire team learned a lot along the way.
 
 -We had to learn the working of smart contracts and how web3 actually works.
