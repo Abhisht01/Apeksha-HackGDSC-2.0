@@ -17,9 +17,13 @@ Challenges we ran into->
 The challenges were big but not unsolvable. Due to this idea having very big aspirations and goals, we achieved major milestones in our project and the entire team learned a lot along the way.
 
 -We had to learn the working of smart contracts and how web3 actually works.
+
 -Using Moralis to implement the Web3 infrastructure.
+
 -Generating and posting NFTs in a way its authenticity can be maintained.
+
 -A robust design to encompass the whole idea of the platform.
+
 -Creating a strong logistic strategy to get people to the food and not let it go to waste.
 
 Our Team ->
