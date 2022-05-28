@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500&family=Sora:wght@100;200;300;400;500;600;700;800&display=swap');
+@tailwind base; 
+@tailwind components; 
+@tailwind utilities;
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #f4bb7d;
+}
+.trem{
+  border-radius: 50px;
+background: #294c4c;
+box-shadow: inset 5px 5px 3px #101e1e,
+            inset -5px -5px 3px #427a7a;
+}
+.tyr{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 50em;
+}
+.button12 {
+  width: 16em;
+  height: 4em;
+  border-radius: 30em;
+  font-size: 18px;
+  font-family: inherit;
+  border: none;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  box-shadow: 6px 6px 12px #c5c5c5,
+              -6px -6px 12px #ffffff;
+ }
+ 
+ .button12::before {
+  content: '';
+  width: 0;
+  height: 4em;
+  border-radius: 30em;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(to right, #0fd850 0%, #f9f047 100%);
+  transition: .5s ease;
+  display: block;
+  z-index: -1;
+ }
+ 
+ .button12:hover::before {
+  width: 16em;
+ }
+
+ /* From uiverse.io by @alexmaracinaru */
+.cta {
+  border: none;
+  background: none;
+ }
+ 
+ .cta {
+  padding-bottom: 2px;
+  border-bottom: -200px;
+  letter-spacing: 4px;
+  font-size: 10px;
+  padding-right: 15px;
+  text-transform: uppercase;
+ }
+ 
+ .cta svg {
+  transform: translateX(-8px);
+  transition: all 0.3s ease;
+ }
+ 
+ .cta:hover svg {
+  transform: translateX(0);
+ }
+ 
+ .cta:active svg {
+  transform: scale(0.1);
+ }
+ 
+ .hover-underline-animation {
+  position: relative;
+  color: rgb(14, 78, 28);
+  padding-bottom: -200px;
+ }
+ 
+ .hover-underline-animation:after {
+  content: "";
+  position: relative;
+  width: 100%;
+  transform: scaleX(0);
+  height: 1px;
+  bottom: -4px;
+  left: 0;
+  background-color: #855d0d;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+ }
+ 
+ .cta:hover .hover-underline-animation:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+ }
